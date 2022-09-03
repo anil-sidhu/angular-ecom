@@ -11,6 +11,18 @@
       "email": "sam@seller.com",
       "password": "abc@123",
       "id": 2
+    },
+    {
+      "name": "peter",
+      "password": "abc@123",
+      "email": "peter@test.com",
+      "id": 3
+    },
+    {
+      "name": "bruce",
+      "password": "abc@123",
+      "email": "bruce@test.com",
+      "id": 4
     }
   ]
 }
