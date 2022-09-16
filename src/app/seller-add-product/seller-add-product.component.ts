@@ -12,4 +12,9 @@ export class SellerAddProductComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  submit(data:object){
+    console.warn(data);
+    
+  }
+
 }
