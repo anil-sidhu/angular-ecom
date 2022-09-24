@@ -12,3 +12,6 @@ table td , table th{
     padding: 10px;
     min-width: 160pxs;
 }
+.adjust-update-link{
+    margin-left: 10px;
+}
