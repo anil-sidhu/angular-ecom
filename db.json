@@ -45,10 +45,10 @@
   ],
   "products": [
     {
-      "name": "samsung m 40",
-      "price": "500",
+      "name": "Samsung m 40 a ",
+      "price": "550",
       "category": "mobile",
-      "color": "black",
+      "color": "white",
       "description": "this is a Samsung product",
       "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
       "id": 1
