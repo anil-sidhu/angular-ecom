@@ -45,6 +45,7 @@
 .nav ul a {
     text-decoration: none;
     color: blueviolet;
+    cursor: pointer;
 }
 
 h1 a{

@@ -120,6 +120,18 @@
       "email": "peter@user.com",
       "password": "abc123",
       "id": 2
+    },
+    {
+      "name": "hyden",
+      "email": "hyden@user.com",
+      "password": "abc123",
+      "id": 3
+    },
+    {
+      "name": "tony",
+      "email": "tony@user.com",
+      "password": "abc123",
+      "id": 4
     }
   ]
 }
