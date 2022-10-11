@@ -4,3 +4,11 @@
     color: blueviolet;  
     text-align: center; 
 }
+
+.user-auth {
+    margin-bottom: 100px;
+}
+.user-auth a{
+    color: blueviolet;
+    cursor: pointer;
+}
