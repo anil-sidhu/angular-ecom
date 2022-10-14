@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
-import { signUp } from '../data-type';
+import { login, signUp } from '../data-type';
 
 @Injectable({
   providedIn: 'root'
@@ -20,6 +20,17 @@ export class UserService {
    })
     
   }
+  userLogin(data:login){
+    this.http.get<signUp[]>(`http://localhost:3000/users?email=${data.email}&password=${data.password}`,
+    {observe:'response'}
+    ).subscribe((result)=>{
+      if(result && result.body){
+        localStorage.setItem('user',JSON.stringify(result.body[0]));
+        this.router.navigate(['/']);
+      }
+    })
+  }
+
   userAuthReload(){
     if(localStorage.getItem('user')){
       this.router.navigate(['/']);
