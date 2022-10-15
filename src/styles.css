@@ -40,3 +40,12 @@ body {
   background-color: black;
   border-radius: 5px;
 }
+
+.invalid-input{
+  color: red;
+  font-size: 12px;
+  margin-top:-20px
+}
+button:disabled{
+  cursor: not-allowed;
+}
