@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { cart, priceSummary } from '../data-type';
 import { ProductService } from '../services/product.service';
 
@@ -16,7 +17,7 @@ priceSummary:priceSummary={
   delivery:0,
   total:0
 }
-  constructor(private product:ProductService) { }
+  constructor(private product:ProductService, private router:Router) { }
 
   ngOnInit(): void {
     this.product.currentCart().subscribe((result)=>{
@@ -38,6 +39,10 @@ priceSummary:priceSummary={
       
     })
 
+  }
+
+  checkout(){
+this.router.navigate(['/checkout'])
   }
 
 }

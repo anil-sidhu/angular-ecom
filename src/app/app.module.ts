@@ -18,6 +18,7 @@ import { SearchComponent } from './search/search.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { UserAuthComponent } from './user-auth/user-auth.component';
 import { CartPageComponent } from './cart-page/cart-page.component';
+import { CheckoutComponent } from './checkout/checkout.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { CartPageComponent } from './cart-page/cart-page.component';
     SearchComponent,
     ProductDetailsComponent,
     UserAuthComponent,
-    CartPageComponent
+    CartPageComponent,
+    CheckoutComponent
   ],
   imports: [
     BrowserModule,
