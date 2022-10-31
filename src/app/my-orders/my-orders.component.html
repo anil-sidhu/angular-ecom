@@ -17,15 +17,15 @@
            <span>Cancel Order</span>
         </div>
     </div>
-    <div class="row">
+    <div class="row" *ngFor="let order of orderData">
         <div class="col-sm-2">
             <img class="order-img" src="https://www.clipartmax.com/png/middle/210-2106541_track-my-order-beach-volleyball.png" alt="">
         </div>
         <div class="col-sm-2">
-            <span>#100</span>
+            <span>#{{order.id}}</span>
         </div>
         <div class="col-sm-2">
-            <span>13000</span>
+            <span>{{order.totalPrice}}</span>
         </div>
         <div class="col-sm-2">
             <span>In Progress</span>
@@ -34,69 +34,5 @@
             <button class="form-button">Cancel Order</button>
         </div>
     </div>
-    <div class="row">
-        <div class="col-sm-2">
-            <img class="order-img" src="https://www.clipartmax.com/png/middle/210-2106541_track-my-order-beach-volleyball.png" alt="">
-        </div>
-        <div class="col-sm-2">
-            <span>#100</span>
-        </div>
-        <div class="col-sm-2">
-            <span>13000</span>
-        </div>
-        <div class="col-sm-2">
-            <span>In Progress</span>
-        </div>
-        <div class="col-sm-2">
-            <button class="form-button">Cancel Order</button>
-        </div>
-    </div>    <div class="row">
-        <div class="col-sm-2">
-            <img class="order-img" src="https://www.clipartmax.com/png/middle/210-2106541_track-my-order-beach-volleyball.png" alt="">
-        </div>
-        <div class="col-sm-2">
-            <span>#100</span>
-        </div>
-        <div class="col-sm-2">
-            <span>13000</span>
-        </div>
-        <div class="col-sm-2">
-            <span>In Progress</span>
-        </div>
-        <div class="col-sm-2">
-            <button class="form-button">Cancel Order</button>
-        </div>
-    </div>    <div class="row">
-        <div class="col-sm-2">
-            <img class="order-img" src="https://www.clipartmax.com/png/middle/210-2106541_track-my-order-beach-volleyball.png" alt="">
-        </div>
-        <div class="col-sm-2">
-            <span>#100</span>
-        </div>
-        <div class="col-sm-2">
-            <span>13000</span>
-        </div>
-        <div class="col-sm-2">
-            <span>In Progress</span>
-        </div>
-        <div class="col-sm-2">
-            <button class="form-button">Cancel Order</button>
-        </div>
-    </div>    <div class="row">
-        <div class="col-sm-2">
-            <img class="order-img" src="https://www.clipartmax.com/png/middle/210-2106541_track-my-order-beach-volleyball.png" alt="">
-        </div>
-        <div class="col-sm-2">
-            <span>#100</span>
-        </div>
-        <div class="col-sm-2">
-            <span>13000</span>
-        </div>
-        <div class="col-sm-2">
-            <span>In Progress</span>
-        </div>
-        <div class="col-sm-2">
-            <button class="form-button">Cancel Order</button>
-        </div>
-    </div>
+    
 </div>
