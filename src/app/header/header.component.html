@@ -1,6 +1,6 @@
 <nav class="nav">
   <h1><a routerLink="">E-Comm</a> </h1>
-  <div *ngIf="menuType==='default'" class="nav-search">
+  <div *ngIf="menuType!=='seller'" class="nav-search">
     <input type="text"
     #searchInput
     (keyup)="searchProduct($event)" (blur)="hideSearch()" placeholder="Search Products" />
@@ -25,8 +25,7 @@
     <li><a routerLink="my-orders" >My Orders</a></li>
     <li><a (click)="userLogout()" >Logout</a></li>
 
-
-    <li><a routerLink="cart-page">Cart({{cartItems}})</a></li>
+    <li><a [routerLink]="cartItems>0?'cart-page':null">Cart({{cartItems}})</a></li>
   </ul>
   <ul *ngSwitchCase="'seller'" >
     <li><a routerLink="seller-add-product">Add Product</a></li>

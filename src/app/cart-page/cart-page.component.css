@@ -6,7 +6,7 @@
     text-align: center;
 }
 .details {
-    border:  1px solid #ddd;
+   
 }
 .details img{
     height: 100px;
@@ -17,9 +17,10 @@
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #ddd;
-    padding-top: 15px;
+    border: 1px solid #ddd;
+    padding: 15px;
     margin-bottom: 15px;
+    
 }
 .summary h3{
     text-align: center;

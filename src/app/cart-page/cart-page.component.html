@@ -19,7 +19,7 @@
             <span> Quantity : {{cart.quantity}}</span>
         </li>
         <li >
-           <button class="form-button">Remove To Cart</button>
+           <button class="form-button"(click)="removeToCart(cart.id)" >Remove To Cart</button>
         </li>
     </ul>
     
