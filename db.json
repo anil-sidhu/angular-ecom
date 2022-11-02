@@ -170,14 +170,6 @@
       "id": 1
     },
     {
-      "email": "anil@user.com",
-      "address": "noida sector 101",
-      "contact": "9988",
-      "totalPrice": 104750,
-      "userId": 1,
-      "id": 2
-    },
-    {
       "email": "anil@test.com",
       "address": "noida sector x",
       "contact": "8877",
